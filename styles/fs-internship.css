@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  */
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between
+}
+
+
+header > img {
+    max-width: 200px;
+}
+
+header > div {
+    display: flex;
+    flex-direction: row wrap;
+    gap: 25px;
+}
+
+/*  */
+
+h1 {
+    text-align: center;
+}
